@@ -191,8 +191,8 @@ java -jar crawler-rest-api/target/crawler-rest-api-1.0.0.jar
 
 Build Docker Image
 
-```docker build -t single-url-crawler:1.0.0 .```
+```docker build -t url-crawler:1.0.0 .```
 
 Run Docker Container
 
-```docker run -p 8080:8080 single-url-crawler:1.0.0 ```
+```docker run -p 8080:8080 url-crawler:1.0.0 ```
