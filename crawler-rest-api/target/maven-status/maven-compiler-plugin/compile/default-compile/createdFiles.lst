@@ -1,0 +1,11 @@
+com/example/dto/ExtractRequest.class
+com/example/controller/HealthChecker.class
+com/example/dto/Nlp.class
+com/example/dto/Content.class
+com/example/controller/ExtractController.class
+com/example/dto/ExtractResponse$LinkRef.class
+com/example/service/ExtractService.class
+com/example/dto/ExtractResponse$ImageRef.class
+com/example/Application.class
+com/example/dto/Metadata.class
+com/example/dto/ExtractResponse.class

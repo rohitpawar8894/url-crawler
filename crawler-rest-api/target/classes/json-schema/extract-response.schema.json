@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExtractResponse",
+  "type": "object",
+  "properties": {
+    "input_url": { "type": "string", "format": "uri" },
+    "url_final": { "type": "string", "format": "uri" },
+    "fetched_at": { "type": "string", "format": "date-time" },
+    "status_code": { "type": "integer" },
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string" },
+        "description": { "type": "string" },
+        "canonical": { "type": "string", "format": "uri" },
+        "lang": { "type": "string" },
+        "og": { "type": "object", "additionalProperties": { "type": "string" } },
+        "published_time": { "type": "string" }
+      }
+    },
+    "content": {
+      "type": "object",
+      "properties": {
+        "text": { "type": "string" },
+        "images": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "src": { "type": "string" },
+              "alt": { "type": "string" }
+            },
+            "required": ["src"]
+          }
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "href": { "type": "string" },
+              "rel": { "type": "string" }
+            },
+            "required": ["href"]
+          }
+        }
+      },
+      "required": ["text"]
+    },
+    "nlp": {
+      "type": "object",
+      "properties": {
+        "page_type": { "type": "string" },
+        "topics": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  },
+  "required": ["input_url", "url_final", "fetched_at", "status_code", "metadata", "content", "nlp"]
+}

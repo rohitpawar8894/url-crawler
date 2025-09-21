@@ -1,0 +1,9 @@
+server:
+  port: 8080
+app:
+  userAgent: "DemoCrawler/1.0 (+contact: crawler@example.com)"
+  connectTimeoutMs: 8000
+  readTimeoutMs: 15000
+  robotsTtlMinutes: 120
+  maxImages: 50
+  maxLinks: 100

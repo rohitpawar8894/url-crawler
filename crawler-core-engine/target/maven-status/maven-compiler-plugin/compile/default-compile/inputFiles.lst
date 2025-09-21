@@ -1,0 +1,12 @@
+/Users/rohitpawar/Downloads/url-crawler/crawler-core-engine/src/main/java/com/example/crawler/model/LinkRef.java
+/Users/rohitpawar/Downloads/url-crawler/crawler-core-engine/src/main/java/com/example/crawler/core/ExtractorService.java
+/Users/rohitpawar/Downloads/url-crawler/crawler-core-engine/src/main/java/com/example/crawler/core/RobotsService.java
+/Users/rohitpawar/Downloads/url-crawler/crawler-core-engine/src/main/java/com/example/crawler/core/ContentExtractor.java
+/Users/rohitpawar/Downloads/url-crawler/crawler-core-engine/src/main/java/com/example/crawler/core/TopicsService.java
+/Users/rohitpawar/Downloads/url-crawler/crawler-core-engine/src/main/java/com/example/crawler/core/package-info.java
+/Users/rohitpawar/Downloads/url-crawler/crawler-core-engine/src/main/java/com/example/crawler/core/Fetcher.java
+/Users/rohitpawar/Downloads/url-crawler/crawler-core-engine/src/main/java/com/example/crawler/model/ImageRef.java
+/Users/rohitpawar/Downloads/url-crawler/crawler-core-engine/src/main/java/com/example/crawler/core/ClassificationService.java
+/Users/rohitpawar/Downloads/url-crawler/crawler-core-engine/src/main/java/com/example/crawler/model/PageData.java
+/Users/rohitpawar/Downloads/url-crawler/crawler-core-engine/src/main/java/com/example/crawler/core/UrlNormalizer.java
+/Users/rohitpawar/Downloads/url-crawler/crawler-core-engine/src/main/java/com/example/crawler/model/FetchResult.java

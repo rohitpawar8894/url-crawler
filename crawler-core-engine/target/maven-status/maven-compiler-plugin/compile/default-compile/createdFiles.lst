@@ -1,0 +1,12 @@
+com/example/crawler/core/package-info.class
+com/example/crawler/core/RobotsService.class
+com/example/crawler/model/FetchResult.class
+com/example/crawler/core/ExtractorService.class
+com/example/crawler/model/LinkRef.class
+com/example/crawler/model/ImageRef.class
+com/example/crawler/core/ClassificationService.class
+com/example/crawler/core/UrlNormalizer.class
+com/example/crawler/core/Fetcher.class
+com/example/crawler/core/TopicsService.class
+com/example/crawler/model/PageData.class
+com/example/crawler/core/ContentExtractor.class
